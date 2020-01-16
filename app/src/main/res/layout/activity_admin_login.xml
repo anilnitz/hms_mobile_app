@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="com.example.aa.hospitalmanagementsystem.Admin_login">
+
+
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/user"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363"
+        app:layout_constraintHorizontal_bias="0.654" />
+
+    <EditText
+        android:id="@+id/pass_et"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_round"
+        android:drawableLeft="@drawable/pass"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.469"
+        app:layout_constraintHorizontal_bias="0.654" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_round"
+        android:backgroundTint="@color/colorPrimary"
+        android:drawableLeft="@drawable/send"
+        android:paddingLeft="70dp"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:text="LogIn"
+        android:paddingRight="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581"
+        app:layout_constraintHorizontal_bias="0.654" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="189dp"
+        android:layout_height="164dp"
+        app:srcCompat="@drawable/hms2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <ProgressBar
+        android:id="@+id/progess"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:visibility="gone"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+</android.support.constraint.ConstraintLayout>

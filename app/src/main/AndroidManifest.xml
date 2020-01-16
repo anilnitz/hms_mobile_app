@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aa.hospitalmanagementsystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Home"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Admin_login" />
+        <activity android:name=".Doctors_login" />
+        <activity android:name=".Patients" />
+        <activity android:name=".Patients_signup" />
+        <activity android:name=".Patients_Dashboard" />
+        <activity android:name=".Doctor_dashboard" />
+        <activity android:name=".Admin_dashboard" />
+        <activity android:name=".Book_appointment" />
+        <activity android:name=".Add_doctor" />
+        <activity android:name=".Patients_profile" />
+        <activity android:name=".Doctors_profile" />
+        <activity android:name=".Doctor_Appointment_list" />
+        <activity android:name=".contact" />
+        <activity android:name=".About" />
+        <activity android:name=".Admin_appointment_list" />
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Patients_Appointment_List"></activity>
+    </application>
+
+</manifest>

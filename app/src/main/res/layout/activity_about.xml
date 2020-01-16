@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg3"
+    tools:context="com.example.aa.hospitalmanagementsystem.About">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="340dp"
+        android:layout_height="215dp"
+        android:text="Hospital Management System(HMS) is a system for managing the hospital functions and events. it has different modules such as adding new doctors, managing parents and managing appointments. ... Hospital management system Project is to download and the source code is based on core PHP and Android."
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827"
+        app:layout_constraintHorizontal_bias="0.84" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="385dp"
+        android:layout_height="210dp"
+        app:srcCompat="@drawable/contact"
+        android:layout_marginTop="52dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:text="About Us"
+        android:fontFamily="cursive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012"
+        app:layout_constraintHorizontal_bias="0.501" />
+</android.support.constraint.ConstraintLayout>
